@@ -142,6 +142,7 @@ body {
   position: absolute;
   right: 1rem;
   color: white;
+  font-weight: bold;
 }
 
 .footer {
