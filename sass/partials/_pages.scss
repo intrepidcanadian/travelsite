@@ -1,0 +1,111 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+
+.pages {
+
+
+&-greece{
+    background-image: url("/assets/images/greece.jpg");
+    background-size: cover;
+    margin-top: 3rem;
+    width: 100%;
+    height: 50rem;
+    background-position: center;
+
+    &_location {
+        color:white;
+        font-size: 3rem;
+        font-weight: bold;
+        padding-left: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+   
+            
+        }
+
+    }
+    &-hawaii{
+        background-image: url("/assets/images/hawaii.jpg");
+        background-size: cover;
+        margin-top: 3rem;
+        width: 100%;
+        height: 50rem;
+        background-position: center;
+    
+        &_location {
+            color:white;
+            font-size: 3rem;
+            font-weight: bold;
+            padding-left: 2rem;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+       
+                
+            }
+    
+        }
+        &-iceland{
+            background-image: url("/assets/images/iceland.jpg");
+            background-size: cover;
+            margin-top: 3rem;
+            width: 100%;
+            height: 50rem;
+            background-position: center;
+        
+            &_location {
+                color:white;
+                font-size: 3rem;
+                font-weight: bold;
+                padding-left: 2rem;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+           
+                    
+                }
+        
+            }
+}
+
+
+    .itinerary{
+
+        padding-top: 2rem;
+        display: flex;
+        justify-content: space-evenly;
+        
+        &_day {
+            display: flex;
+            background-color: white;
+            flex-direction: column;
+            list-style: none;
+            justify-content: center;
+            margin-left: 0;
+            padding: 2rem;
+            border-radius:1rem;
+        }
+
+        }
+
+.day_week{
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+
+}
+
+
+.day_meal {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #FEFAF5;
+    margin: 1rem;
+}
+
+

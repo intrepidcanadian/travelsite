@@ -3,14 +3,14 @@
 
 .footer{
     background-color: #FEFAF5;
-
-    padding: 1rem;
+    padding-top: 1rem;
     
     &_container {
         display: flex;
         justify-content: space-between;
         margin-left: 5rem;
         margin-right: 5rem;
+        
 
     }
 
@@ -78,7 +78,7 @@
 
     .icons {
         display: flex;
-        width: 25%;
+        padding-left: 14rem;
     }
 
     .logos {
@@ -86,4 +86,5 @@
         display: flex;
         width: auto;
         height: 20px;
+        padding-left: 1rem;
     }
