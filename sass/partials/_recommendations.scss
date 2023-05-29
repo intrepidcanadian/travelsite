@@ -1,0 +1,44 @@
+@use "./mixins" as *;
+
+.recommendations {
+
+    @include title-font(#335576);
+    font-size: 1.25em;
+    margin: 2em 2em 2em 2em;
+    display:flex;
+    
+
+        &_container {
+            display: flex;
+            margin: 2em;
+            justify-content: space-evenly;
+            position: relative;
+            
+
+        }
+
+        &_product {
+            display: flex;
+            position: relative;
+        }
+
+        &_img {
+            display:flex;
+            width: 200px;
+            height: auto;
+            border-radius: 5px;
+            border: 1px solid rgba(0,0,0,0.2);
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+        }
+
+}
+
+.product-description {
+    font-size: 1em;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    color: white;
+
+}
+

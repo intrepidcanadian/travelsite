@@ -1,0 +1,23 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+.header {
+  text-align: center;
+  padding-top: 1em;
+  margin-bottom: 1em;
+
+  &__title {
+    @include title-font($primary-color);
+    @include resets;
+        // color: $primary-color;
+  }
+
+  &__tagline {
+    @include title-font(red);
+    @include resets;
+
+    span {
+      font-size: 1.5rem;
+    }
+  }
+}

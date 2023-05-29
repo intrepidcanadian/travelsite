@@ -1,0 +1,25 @@
+@use "./partials/header";
+@use "./partials/resets";
+@use "./partials/nav";
+@use "./partials/hero";
+@use "./partials/variables" as *;
+@use "./partials/mixins" as *;
+@use "./partials/recommendations";
+@use "./partials/footer";
+
+
+// main {
+//   margin: 0 auto;
+//   width: 50%;
+//   .articles {
+//     @include flex(column, center, center);
+//     .article {
+//       font-family: "Fira Mono", monospace;
+//       @include animation;
+//       &__headline {
+//         font-size: 1em;
+//         color: $primary-color;
+//       }
+//     }
+//   }
+// }

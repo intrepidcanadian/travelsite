@@ -1,0 +1,39 @@
+@use "./mixins" as *;
+
+.nav {
+  padding: 1rem 2rem 1rem 2rem;
+  background: #FFFFFF;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  position: fixed;
+  top: 0em;
+
+
+  &__list {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 0 auto;
+    list-style: none;
+  }
+
+
+  &__link {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-weight: 400;
+
+    &--active {
+      text-decoration: underline;
+      font-weight: bold;
+      text-decoration-color: #DB7A4E;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 10px;
+    }
+
+    &:hover {
+      @extend .nav__link--active;
+    }
+  }
+}
